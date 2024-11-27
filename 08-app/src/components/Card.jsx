@@ -11,7 +11,7 @@ const MemeCard = (props)=>{
           <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <Button  
-            onClick={(e) => navigate(`/edit/${props.img}`)}
+            onClick={(e) => navigate(`/edit?url=${props.img}`)}
             variant="primary">Edit</Button>
           </Card.Body>
         </Card>
